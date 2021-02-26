@@ -1,0 +1,22 @@
+body {
+    background-color: #000066;
+    color: #fdffff;
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    padding: 2px 20px;
+    background-color: #fdffff;
+    border-style: none;
+    color: #000;
+}
+
+input {
+    height: 20px;
+}
+
+.pulldown {
+    height: 26px;
+}

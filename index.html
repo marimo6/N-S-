@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N/S高何期生?</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>N/S高何期生?</h1>
+    <p>学籍番号を入力すると、その番号が何期生の物なのかが表示されます。</p>
+    <input type="number" id="year" min="16">
+    <select id="school" class="pulldown">
+        <option value="N">n</option>
+        <option value="S">s</option>
+    </select>
+    <select id="month" class="pulldown">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+    <select id="grade" class="pulldown">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+    <input type="number" id="id" length="5">
+    <button id="submit">確認する</button>
+    <p id=result-area></p>
+    <script src="result.js"></script>
+</body>
+
+</html>
