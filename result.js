@@ -1,4 +1,3 @@
-
 "use strict";
 
 const yearInput = document.getElementById("year");
